@@ -19,8 +19,8 @@ const SHOP_DATA = [
       {
         id: 3,
         name: 'MacBook Air',
-        imageUrl: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FgPvyaz76tASn87RCGuSdDc.jpg&imgrefurl=https%3A%2F%2Fwww.techradar.com%2Freviews%2Fapple-macbook-air-m12020&tbnid=PomPxZZRNdUTyM&vet=12ahUKEwiuk-LO0YTuAhVU_4UKHcs1A_IQMygAegUIARCVAQ..i&docid=dqoAm7_0V-yfKM&w=1920&h=1080&q=macbook%20air%20m1&ved=2ahUKEwiuk-LO0YTuAhVU_4UKHcs1A_IQMygAegUIARCVAQ',
-        price: 520000
+        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmvmVAilCpOUY7GMyKKVA9HjFfS9pDu0mj6A&usqp=CAU',
+        price: 5200
       },
       {
         id: 4,
@@ -69,7 +69,7 @@ const SHOP_DATA = [
         id: 1,
         name: 'Dell Vestro',
         imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPMmqPgZicDi2ibvzK246UiXDO47GqlmAbIg&usqp=CAU',
-        price: 140000
+        price: 1400
       },
       {
         id: 2,
@@ -160,7 +160,7 @@ const SHOP_DATA = [
       {
         id: 1,
         name: 'MacBook Pro 2020',
-        imageUrl: '',
+        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAtAm5e14-44psev1dRLfxXBiz6sYO5vY-Ww&usqp=CAU',
         price: 750000
       },
       {
