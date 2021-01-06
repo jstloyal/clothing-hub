@@ -9,33 +9,33 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: 'LAPTOP',
-          imageUrl: 'https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8bGFwdG9wfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+          title: 'HATS',
+          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
           id: 1,
-          linkUrl: 'laptops'
+          linkUrl: 'hats'
         },
         {
-          title: 'DESKTOP',
-          imageUrl: 'https://storage-asset.msi.com/event/spb/2019/best-gaming-desktop-pc/images/kv-pd.png',
+          title: 'JACKETS',
+          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
           id: 2,
           linkUrl: ''
         },
         {
-          title: 'ACCESSORIES',
-          imageUrl: 'https://hips.hearstapps.com/bpc.h-cdn.co/assets/17/30/1501000275-iphone-accessories.jpg',
+          title: 'SNEAKERS',
+          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
           id: 3,
           linkUrl: ''
         },
         {
-          title: 'APPLE',
-          imageUrl: 'https://images.macrumors.com/t/u5qFUnuK3qopG8nIsOOX74kgtk8=/1600x0/article-new/2019/02/MR-Future-Products-2020-2.png',
+          title: 'WOMENS',
+          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
           size: 'large',
           id: 4,
           linkUrl: ''
         },
         {
-          title: 'PC',
-          imageUrl: 'https://cdn.mos.cms.futurecdn.net/vEcELHdn998wRTcCzqV5m9.jpg',
+          title: 'MENS',
+          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
           size: 'large',
           id: 5,
           linkUrl: ''
