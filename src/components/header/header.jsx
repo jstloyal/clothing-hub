@@ -4,9 +4,13 @@ import { Link } from 'react-router-dom';
 import { auth } from '../../firebase/firebase.utils';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 import './header.styles.scss';
+import CartIcon from '../cart-icon/cart-icon';
+import CartDropdown from '../cart-dropdown/cart-dropdown';
 
 function Header() {
   const currentUser = useSelector(state => state.user.currentUser);
+  const hidden = useSelector(state => state.cart.hidden);
+
   return (
     <div className='header'>
       <Link to="/" className='logo-container'>
@@ -24,7 +28,9 @@ function Header() {
         ) : (
           <Link className='option' to='/signIn'>SIGN IN</Link>
         )}
+        <CartIcon />
       </div>
+      {hidden ? null : <CartDropdown />}
     </div>
   )
 }
